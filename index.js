@@ -76,6 +76,13 @@ function createGroups(arr, numGroups) {
 
 /*
   Add written explanation of your solution here
+  My goal with this code was as follows:
+  1.) Made the string into an array of letters
+  2.) Find the median of the array of letters
+  3.) Find the deviation of each letter compared to the median
+  4.) Create a separate string array of each letter and deviation
+  5.) Use a loop to compare each string array with the other string arrays
+  6.) Used .some() property to validate if the strings were equal or not equal
 */
 
 // You can run `node index.js` to view these console logs
